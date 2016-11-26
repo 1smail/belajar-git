@@ -1,0 +1,44 @@
+GitHub.com
+User : 1smail
+Pass : kim0
+Email: hicteam@gmail.com
+
+Reff :
+- https://www.git-tower.com/learn/git/faq/change-author-name-email
+
+
+Setelah membuat repository baru, jalankan perintah di terminal :
+$ git init
+Initialized empty Git repository in /Users/bimasakti/Downloads/belajar-git/.git/
+$ git add test.txt
+$ git commit -m "Commit pertama" // -m = message/komentar
+$ git show // menampilkan perubahan yg terjadi
+$ git log // melihat log
+
+$ git config --global user.name "1smail"
+$ git config --global user.email hicteam@gmail.com
+
+$ git add -A // Menambahkan antrian untuk diupload
+
+$ git push origin master
+
+$ git fetch
+
+
+$ git remote add origin https://github.com/1smail/belajar-git
+
+Me-link-an Account github.com dengan komputer lokal kita:
+$ ssh-keygen -t rsa -b 4096 -C "hicteam@gmail.com"
+
+ohmyz.sh <-- Terminal yg lebih bagus
+
+Ketika ada perubahan file
+
+$ git status
+$ git commit -m "Commit kedua"
+
+Klo mau simpel, semua file yg 
+$ git add .
+
+Untuk meng-upload perubahan file
+$ git push origin master
